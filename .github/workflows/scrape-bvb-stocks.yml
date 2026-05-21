@@ -2,10 +2,13 @@ name: Scrape BVB Stocks
 
 on:
   schedule:
-    # Run every hour at the top of the hour
+    # Run every 5 minutes
     - cron: '*/5 * * * *'
   # Allow manual trigger
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   scrape:
@@ -27,8 +30,10 @@ jobs:
       
       - name: Commit and push if stocks changed
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add stocks.json
           git commit -m "Update stocks data - $(date)" || exit 0
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
