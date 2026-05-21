@@ -39,7 +39,7 @@ def scrape_bvb_stocks():
                     continue
                 
                 # Extract data from cells in correct order:
-                # cells[0] = Symbol
+                # cells[0] = Symbol (may have multiple lines)
                 # cells[1] = Name
                 # cells[2] = Price
                 # cells[3] = (Skip - Open or other)
@@ -50,7 +50,9 @@ def scrape_bvb_stocks():
                 variation = cells[4].get_text(strip=True)
                 
                 # Clean up the data
-                symbol = symbol.strip()
+                # Extract only the first line of symbol (first word/part)
+                symbol = symbol.split('\n')[0].strip()
+                
                 name = name.strip()
                 price = price.replace(',', '.')
                 variation = variation.replace(',', '.').replace('%', '')
