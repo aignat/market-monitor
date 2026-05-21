@@ -17,7 +17,7 @@
             padding: 20px;
         }
         .container {
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
             background: white;
             border-radius: 10px;
@@ -64,6 +64,7 @@
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
+            font-size: 0.95em;
         }
         thead {
             background: #f5f5f5;
@@ -100,6 +101,9 @@
         .symbol {
             font-weight: 600;
             color: #667eea;
+        }
+        .name {
+            color: #555;
         }
         .last-updated {
             text-align: center;
@@ -142,9 +146,9 @@
             <thead>
                 <tr>
                     <th>Symbol</th>
+                    <th>Name</th>
                     <th>Price (RON)</th>
-                    <th>Change</th>
-                    <th>Variation %</th>
+                    <th>Daily Variation</th>
                 </tr>
             </thead>
             <tbody id="tableBody">
@@ -203,14 +207,14 @@
             stocks.forEach(stock => {
                 const row = document.createElement('tr');
                 const variation = parseFloat(stock.variation);
-                const changeClass = variation > 0 ? 'positive' : variation < 0 ? 'negative' : 'neutral';
-                const changeSymbol = variation > 0 ? '▲' : variation < 0 ? '▼' : '–';
+                const variationClass = variation > 0 ? 'positive' : variation < 0 ? 'negative' : 'neutral';
+                const variationSymbol = variation > 0 ? '▲' : variation < 0 ? '▼' : '–';
 
                 row.innerHTML = `
                     <td><span class="symbol">${stock.symbol}</span></td>
+                    <td><span class="name">${stock.name}</span></td>
                     <td><span class="price">${parseFloat(stock.price).toFixed(2)}</span></td>
-                    <td><span class="${changeClass}">${changeSymbol} ${stock.change}</span></td>
-                    <td><span class="${changeClass}">${changeSymbol} ${stock.variation}%</span></td>
+                    <td><span class="${variationClass}">${variationSymbol} ${stock.variation}%</span></td>
                 `;
                 tableBody.appendChild(row);
             });
