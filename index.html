@@ -42,13 +42,23 @@
             font-size: 1.1em;
             padding: 40px;
         }
-        .error {
-            background: #fee;
-            color: #c33;
-            padding: 15px;
+        .status-message {
+            text-align: center;
+            padding: 20px;
             border-radius: 5px;
             margin-bottom: 20px;
-            border-left: 4px solid #c33;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+        .status-pending {
+            background: #e8f4f8;
+            color: #2c5aa0;
+            border-left: 4px solid #2c5aa0;
+        }
+        .status-success {
+            background: #eafaf1;
+            color: #186a3b;
+            border-left: 4px solid #186a3b;
         }
         table {
             width: 100%;
@@ -125,7 +135,7 @@
         
         <button id="refreshBtn" class="refresh-btn">🔄 Refresh Data</button>
         
-        <div id="error" class="error" style="display: none;"></div>
+        <div id="status" class="status-message status-pending" style="display: none;"></div>
         <div id="loading" class="loading">Loading stock data...</div>
         
         <table id="stockTable" style="display: none;">
@@ -145,29 +155,32 @@
     </div>
 
     <script>
-        const API_URL = 'http://localhost:5000/api/stocks';
-
         async function loadStockData() {
             try {
                 const loading = document.getElementById('loading');
-                const error = document.getElementById('error');
+                const status = document.getElementById('status');
                 const refreshBtn = document.getElementById('refreshBtn');
                 
                 loading.style.display = 'block';
-                error.style.display = 'none';
+                status.style.display = 'none';
                 refreshBtn.disabled = true;
 
-                const response = await fetch(API_URL);
+                // Load from stocks.json in the repository
+                const response = await fetch('stocks.json?t=' + Date.now());
                 
                 if (!response.ok) {
-                    throw new Error('Could not load stock data');
+                    // File doesn't exist yet - show pending message
+                    showPendingMessage();
+                    loading.style.display = 'none';
+                    return;
                 }
                 
                 const data = await response.json();
                 displayStocks(data.stocks, data.timestamp);
                 loading.style.display = 'none';
             } catch (err) {
-                showError('Unable to fetch stock data. Make sure the backend server is running on http://localhost:5000');
+                showPendingMessage();
+                loading.style.display = 'none';
                 console.error('Error:', err);
             } finally {
                 document.getElementById('refreshBtn').disabled = false;
@@ -177,11 +190,13 @@
         function displayStocks(stocks, timestamp) {
             const tableBody = document.getElementById('tableBody');
             const table = document.getElementById('stockTable');
+            const status = document.getElementById('status');
 
             tableBody.innerHTML = '';
+            status.style.display = 'none';
 
             if (stocks.length === 0) {
-                showError('No stock data available');
+                showPendingMessage();
                 return;
             }
 
@@ -202,14 +217,36 @@
 
             table.style.display = 'table';
             document.getElementById('lastUpdated').textContent = new Date(timestamp).toLocaleString();
+            
+            // Show success message
+            showSuccessMessage();
         }
 
-        function showError(message) {
-            document.getElementById('loading').style.display = 'none';
-            document.getElementById('stockTable').style.display = 'none';
-            const errorDiv = document.getElementById('error');
-            errorDiv.textContent = message;
-            errorDiv.style.display = 'block';
+        function showPendingMessage() {
+            const status = document.getElementById('status');
+            const table = document.getElementById('stockTable');
+            table.style.display = 'none';
+            status.classList.remove('status-success');
+            status.classList.add('status-pending');
+            status.innerHTML = `
+                <strong>⏳ Waiting for stock data...</strong><br>
+                The scraper is running and will fetch real BVB data shortly.<br>
+                This page will automatically update when data is available.
+            `;
+            status.style.display = 'block';
+        }
+
+        function showSuccessMessage() {
+            const status = document.getElementById('status');
+            status.classList.remove('status-pending');
+            status.classList.add('status-success');
+            status.innerHTML = `
+                <strong>✓ Stock data loaded successfully</strong>
+            `;
+            status.style.display = 'block';
+            setTimeout(() => {
+                status.style.display = 'none';
+            }, 3000);
         }
 
         // Load data when page loads
