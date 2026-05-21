@@ -7,7 +7,7 @@ import time
 def scrape_bvb_stocks():
     """
     Scrapes stock data from BVB website
-    Returns a list of stocks with symbol, price, and variation
+    Returns a list of stocks with symbol, name, price, and variation
     """
     try:
         url = "https://bvb.ro/FinancialInstruments/Markets/Shares"
@@ -35,25 +35,30 @@ def scrape_bvb_stocks():
         for row in rows:
             try:
                 cells = row.find_all('td')
-                if len(cells) < 4:
+                if len(cells) < 5:
                     continue
                 
-                # Extract data from cells
+                # Extract data from cells in correct order:
+                # cells[0] = Symbol
+                # cells[1] = Name
+                # cells[2] = Price
+                # cells[3] = (Skip - Open or other)
+                # cells[4] = Daily Variation
                 symbol = cells[0].get_text(strip=True)
-                price = cells[1].get_text(strip=True)
-                change = cells[2].get_text(strip=True)
-                variation = cells[3].get_text(strip=True)
+                name = cells[1].get_text(strip=True)
+                price = cells[2].get_text(strip=True)
+                variation = cells[4].get_text(strip=True)
                 
                 # Clean up the data
                 symbol = symbol.strip()
+                name = name.strip()
                 price = price.replace(',', '.')
-                change = change.replace(',', '.')
                 variation = variation.replace(',', '.').replace('%', '')
                 
                 stocks.append({
                     'symbol': symbol,
+                    'name': name,
                     'price': price,
-                    'change': change,
                     'variation': variation
                 })
             except Exception as e:
