@@ -1,0 +1,527 @@
+{
+  "timestamp": "2026-05-21T20:27:19.705815",
+  "stocks": [
+    {
+      "symbol": "MROMEDLACNOR6",
+      "price": "Med Life S.A.",
+      "change": "11.7000",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "TLVROTLVAACNOR1",
+      "price": "BANCA TRANSILVANIA S.A.",
+      "change": "38.6400",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "SNPROSNPPACNOR9",
+      "price": "OMV PETROM S.A.",
+      "change": "1.0500",
+      "variation": "1.84"
+    },
+    {
+      "symbol": "H2ORO4Q0Z5RO1B6",
+      "price": "SOCIETATEA DE PRODUCERE A ENERGIEI ELECTRICE IN HIDROCENTRALE  HIDROELECTRICA S.A.",
+      "change": "181.0000",
+      "variation": "0.78"
+    },
+    {
+      "symbol": "ARSROAEROACNOR5",
+      "price": "AEROSTAR S.A.",
+      "change": "12.9500",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "CFHROM2TZIHW2M4",
+      "price": "CRIS-TIM FAMILY HOLDING S.A.",
+      "change": "27.6000",
+      "variation": "-0.72"
+    },
+    {
+      "symbol": "RMAHRORMAHACNOR2",
+      "price": "FARMACEUTICA REMEDIA SA",
+      "change": "0.8260",
+      "variation": "-8.63"
+    },
+    {
+      "symbol": "BRDROBRDBACNOR2",
+      "price": "BRD - GROUPE SOCIETE GENERALE S.A.",
+      "change": "31.7500",
+      "variation": "2.42"
+    },
+    {
+      "symbol": "BIOROBIOFACNOR9",
+      "price": "BIOFARM S.A.",
+      "change": "1.4300",
+      "variation": "0.35"
+    },
+    {
+      "symbol": "FPROFPTAACNOR5",
+      "price": "FONDUL PROPRIETATEA",
+      "change": "0.6060",
+      "variation": "0.50"
+    },
+    {
+      "symbol": "TGNROTGNTACNOR8",
+      "price": "S.N.T.G.N. TRANSGAZ S.A.",
+      "change": "88.4000",
+      "variation": "-0.56"
+    },
+    {
+      "symbol": "EBSAT0000652011",
+      "price": "Erste Group Bank AG",
+      "change": "517.0000",
+      "variation": "0.68"
+    },
+    {
+      "symbol": "DIGINL0012294474",
+      "price": "Digi Communications N.V.",
+      "change": "47.5000",
+      "variation": "-0.21"
+    },
+    {
+      "symbol": "SNNROSNNEACNOR8",
+      "price": "S.N. NUCLEARELECTRICA S.A.",
+      "change": "69.5000",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "ATBROATBIACNOR9",
+      "price": "ANTIBIOTICE S.A.",
+      "change": "2.1100",
+      "variation": "-2.54"
+    },
+    {
+      "symbol": "AROBSROWMR49B0RG5",
+      "price": "AROBS TRANSILVANIA SOFTWARE",
+      "change": "0.7020",
+      "variation": "-0.57"
+    },
+    {
+      "symbol": "AQRO7066ZEA1R9",
+      "price": "AQUILA PART PROD COM",
+      "change": "1.4700",
+      "variation": "2.08"
+    },
+    {
+      "symbol": "LONGROSIFDACNOR6",
+      "price": "LONGSHIELD INVESTMENT GROUP S.A.",
+      "change": "2.2000",
+      "variation": "-0.90"
+    },
+    {
+      "symbol": "PBKROBACRACNOR6",
+      "price": "PATRIA BANK S.A.",
+      "change": "0.1470",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "ELROELECACNOR5",
+      "price": "SOCIETATEA ENERGETICA ELECTRICA S.A.",
+      "change": "33.6500",
+      "variation": "-0.44"
+    },
+    {
+      "symbol": "ROC1RO9FY9SRFU46",
+      "price": "ROCA INDUSTRY HOLDINGROCK1 S.A.",
+      "change": "0.6100",
+      "variation": "0.99"
+    },
+    {
+      "symbol": "SNGROSNGNACNOR3",
+      "price": "S.N.G.N. ROMGAZ S.A.",
+      "change": "14.8200",
+      "variation": "-0.27"
+    },
+    {
+      "symbol": "BRKROBRKOACNOR0",
+      "price": "SSIF BRK FINANCIAL GROUP SA",
+      "change": "0.1120",
+      "variation": "5.16"
+    },
+    {
+      "symbol": "BNETROBNETACNOR1",
+      "price": "BITTNET SYSTEMS SA",
+      "change": "0.0950",
+      "variation": "0.85"
+    },
+    {
+      "symbol": "SMTLRONLG8JKKYH3",
+      "price": "SIMTEL TEAM",
+      "change": "39.6000",
+      "variation": "-1.74"
+    },
+    {
+      "symbol": "ARMROARMAACNOR7",
+      "price": "ARMATURA S.A.",
+      "change": "0.3460",
+      "variation": "-1.14"
+    },
+    {
+      "symbol": "MCABROMCABACNOR7",
+      "price": "ROMCAB SA",
+      "change": "0.0266",
+      "variation": "-0.75"
+    },
+    {
+      "symbol": "TELROTSELACNOR9",
+      "price": "C.N.T.E.E. TRANSELECTRICA",
+      "change": "90.2000",
+      "variation": "0.22"
+    },
+    {
+      "symbol": "TRANSIROSIFCACNOR8",
+      "price": "TRANSILVANIA INVESTMENTS ALLIANCE S.A.",
+      "change": "0.6200",
+      "variation": "0.32"
+    },
+    {
+      "symbol": "PECY0200900914",
+      "price": "Premier Energy PLC",
+      "change": "54.8000",
+      "variation": "-0.36"
+    },
+    {
+      "symbol": "STZROSTZOACNOR8",
+      "price": "SINTEZA S.A.",
+      "change": "0.4700",
+      "variation": "-1.67"
+    },
+    {
+      "symbol": "EVERROSIFBACNOR0",
+      "price": "EVERGENT INVESTMENTS S.A.",
+      "change": "3.3800",
+      "variation": "0.30"
+    },
+    {
+      "symbol": "ONEROJ8YZPDHWW8",
+      "price": "ONE UNITED PROPERTIES",
+      "change": "30.7000",
+      "variation": "0.66"
+    },
+    {
+      "symbol": "LIONROSIFAACNOR2",
+      "price": "LION CAPITAL S.A.",
+      "change": "4.5200",
+      "variation": "-0.44"
+    },
+    {
+      "symbol": "TTSROYCRRK66RD8",
+      "price": "TTS (TRANSPORT TRADE SERVICES) S.A.",
+      "change": "5.9200",
+      "variation": "-1.00"
+    },
+    {
+      "symbol": "COTEROCOTEACNOR7",
+      "price": "CONPET SA",
+      "change": "81.2000",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "TBMROTBMBACNOR9",
+      "price": "TURBOMECANICA S.A.",
+      "change": "0.2750",
+      "variation": "-1.79"
+    },
+    {
+      "symbol": "VNCROVRJUACNOR7",
+      "price": "VRANCART SA",
+      "change": "0.0940",
+      "variation": "-3.09"
+    },
+    {
+      "symbol": "ALUROALUMACNOR8",
+      "price": "ALUMIL ROM INDUSTRY S.A.",
+      "change": "2.7400",
+      "variation": "0.37"
+    },
+    {
+      "symbol": "PTRROPESAACNOR0",
+      "price": "ROMPETROL WELL SERVICES S.A.",
+      "change": "0.6600",
+      "variation": "-0.30"
+    },
+    {
+      "symbol": "IARVROIARVACNOR1",
+      "price": "IAR SA Brasov",
+      "change": "25.9000",
+      "variation": "0.39"
+    },
+    {
+      "symbol": "OILROOILTACNOR9",
+      "price": "OIL TERMINAL S.A.",
+      "change": "0.1245",
+      "variation": "-0.40"
+    },
+    {
+      "symbol": "TRPROTRPLACNOR7",
+      "price": "TERAPLAST SA",
+      "change": "0.4525",
+      "variation": "-0.55"
+    },
+    {
+      "symbol": "EAIRO249YW1FZP5",
+      "price": "Electro-Alfa International S.A.",
+      "change": "11.4600",
+      "variation": "1.42"
+    },
+    {
+      "symbol": "CRCROCHOBACNOR8",
+      "price": "CHIMCOMPLEX BORZESTI SA ONESTI",
+      "change": "6.5000",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "ROCEROROCEACNOR1",
+      "price": "ROMCARBON SA",
+      "change": "0.1710",
+      "variation": "1.48"
+    },
+    {
+      "symbol": "SAFERO0MDTLNZV25",
+      "price": "SAFETECH INNOVATIONS S.A.",
+      "change": "0.9100",
+      "variation": "-0.44"
+    },
+    {
+      "symbol": "BCMROBUCMACNOR5",
+      "price": "CASA DE BUCOVINA-CLUB DE MUNTE",
+      "change": "0.1510",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "IMPROIMPCACNOR0",
+      "price": "IMPACT DEVELOPER & CONTRACTOR S.A.",
+      "change": "4.1700",
+      "variation": "-0.71"
+    },
+    {
+      "symbol": "SFGROSFGPACNOR4",
+      "price": "SPHERA FRANCHISE GROUP",
+      "change": "37.3000",
+      "variation": "-0.53"
+    },
+    {
+      "symbol": "MECFROMECFACNOR0",
+      "price": "MECANICA CEAHLAU",
+      "change": "0.0880",
+      "variation": "3.53"
+    },
+    {
+      "symbol": "WINECY0107600716",
+      "price": "PURCARI WINERIES PUBLIC COMPANY LIMITED",
+      "change": "18.9000",
+      "variation": "-0.53"
+    },
+    {
+      "symbol": "BRMROBEMAACNOR3",
+      "price": "BERMAS S.A.",
+      "change": "2.2000",
+      "variation": "-3.51"
+    },
+    {
+      "symbol": "ELMAROELMAACNOR2",
+      "price": "ELECTROMAGNETICA SA",
+      "change": "0.2380",
+      "variation": "0.85"
+    },
+    {
+      "symbol": "RRCROPTRMACNOR5",
+      "price": "ROMPETROL RAFINARE S.A.",
+      "change": "0.0905",
+      "variation": "0.56"
+    },
+    {
+      "symbol": "MFCROMECEACNOR3",
+      "price": "MF CAPITAL SA",
+      "change": "19.5000",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "CAORROCAORACNOR9",
+      "price": "SIF HOTELURI SA",
+      "change": "2.1400",
+      "variation": "-2.73"
+    },
+    {
+      "symbol": "BVBROBVBAACNOR0",
+      "price": "BURSA DE VALORI BUCURESTI SA",
+      "change": "55.6000",
+      "variation": "0.72"
+    },
+    {
+      "symbol": "COMIROCOMIACNOR3",
+      "price": "CONDMAG S.A.",
+      "change": "0.0118",
+      "variation": "5.36"
+    },
+    {
+      "symbol": "INFINITYROSIFEACNOR4",
+      "price": "INFINITY CAPITAL INVESTMENTS S.A.",
+      "change": "4.3100",
+      "variation": "-0.23"
+    },
+    {
+      "symbol": "RPHROIAFRACNOR4",
+      "price": "ROPHARMA SA",
+      "change": "0.2000",
+      "variation": "-0.99"
+    },
+    {
+      "symbol": "CMPROCMPSACNOR9",
+      "price": "COMPA S. A.",
+      "change": "0.6580",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "EFOROEFRIACNOR6",
+      "price": "TURISM. HOTELURI. RESTAURANTE MAREA NEAGRA S.A.",
+      "change": "0.7750",
+      "variation": "3.33"
+    },
+    {
+      "symbol": "ALTROALTCACNOR1",
+      "price": "ALTUR S.A.",
+      "change": "0.0605",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "TBKROTBKAACNOR5",
+      "price": "TRANSILVANIA BROKER DE ASIGURARE SA",
+      "change": "17.4500",
+      "variation": "-0.29"
+    },
+    {
+      "symbol": "CMFROCMBFACNOR6",
+      "price": "COMELF S.A.",
+      "change": "4.3000",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "SNOROSAUVACNOR4",
+      "price": "SANTIERUL NAVAL ORSOVA S.A.",
+      "change": "16.1000",
+      "variation": "-3.01"
+    },
+    {
+      "symbol": "CBCROCBCHACNOR3",
+      "price": "CARBOCHIM S.A.",
+      "change": "27.0000",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "BUCVROBUCVACNOR6",
+      "price": "BUCUR SA Bucuresti",
+      "change": "1.2500",
+      "variation": "4.17"
+    },
+    {
+      "symbol": "AAGROAAGEACNOR7",
+      "price": "S.C AAGES S.A.",
+      "change": "4.1400",
+      "variation": "-0.96"
+    },
+    {
+      "symbol": "ALRROALROACNOR0",
+      "price": "ALRO S.A.",
+      "change": "1.4300",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "ELGSROELGSACNOR6",
+      "price": "AETA S.A.",
+      "change": "0.2180",
+      "variation": "14.74"
+    },
+    {
+      "symbol": "PPLROPRLAACNOR7",
+      "price": "PROMATERIS S.A.",
+      "change": "7.3500",
+      "variation": "0.00"
+    },
+    {
+      "symbol": "PREBROPREBACNOR0",
+      "price": "PREBET SA AIUD",
+      "change": "1.9200",
+      "variation": "0.79"
+    },
+    {
+      "symbol": "GREENROY8LUD7G9C1",
+      "price": "GREEN TECH INTERNATIONAL S.A.",
+      "change": "12.3000",
+      "variation": "-10.87"
+    },
+    {
+      "symbol": "SOCPROSOCPACNOR5",
+      "price": "SOCEP S.A.",
+      "change": "1.6400",
+      "variation": "1.23"
+    },
+    {
+      "symbol": "ARTEROARTEACNOR4",
+      "price": "ARTEGO SA",
+      "change": "10.8000",
+      "variation": "6.93"
+    },
+    {
+      "symbol": "PREHROPREHACNOR7",
+      "price": "PREFAB SA",
+      "change": "2.3200",
+      "variation": "-3.33"
+    },
+    {
+      "symbol": "ECTROELBOACNOR6",
+      "price": "GRUPUL INDUSTRIAL ELECTROCONTACT S.A.",
+      "change": "0.0530",
+      "variation": "6.00"
+    },
+    {
+      "symbol": "NAPORONAPOACNOR0",
+      "price": "SOCIETATEA DE CONSTRUCTII NAPOCA SA",
+      "change": "2.2200",
+      "variation": "12.12"
+    },
+    {
+      "symbol": "ENPROENPCACNOR7",
+      "price": "COMPANIA ENERGOPETROL S.A.",
+      "change": "1.1500",
+      "variation": "0.88"
+    },
+    {
+      "symbol": "UZTROUZTEACNOR5",
+      "price": "UZTEL S.A.",
+      "change": "1.2000",
+      "variation": "7.14"
+    },
+    {
+      "symbol": "UAMROUAMTACNOR1",
+      "price": "UAMT S.A.",
+      "change": "0.5000",
+      "variation": "-2.91"
+    },
+    {
+      "symbol": "ELJROELJBACNOR6",
+      "price": "ELECTROAPARATAJ S.A.",
+      "change": "0.1460",
+      "variation": "1.39"
+    },
+    {
+      "symbol": "CMCMROCMCMACNOR0",
+      "price": "COMCM SA CONSTANTA",
+      "change": "0.3640",
+      "variation": "-2.67"
+    },
+    {
+      "symbol": "CNTEROCNTEACNOR9",
+      "price": "CONTED SA",
+      "change": "34.0000",
+      "variation": "-10.53"
+    },
+    {
+      "symbol": "VESYROVESYACNOR8",
+      "price": "VES SA",
+      "change": "0.0505",
+      "variation": "-14.41"
+    }
+  ]
+}
