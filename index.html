@@ -3,40 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Market Monitor</title>
+    <title>Market Monitor - BVB Stocks</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
         }
         .container {
-            text-align: center;
+            max-width: 1000px;
+            margin: 0 auto;
             background: white;
-            padding: 60px 40px;
             border-radius: 10px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            padding: 40px;
         }
         h1 {
             color: #333;
-            margin: 0;
-            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 2em;
         }
-        p {
+        .info {
+            text-align: center;
             color: #666;
-            margin-top: 10px;
+            margin-bottom: 30px;
+            font-size: 0.95em;
+        }
+        .loading {
+            text-align: center;
+            color: #667eea;
             font-size: 1.1em;
+            padding: 40px;
+        }
+        .error {
+            background: #fee;
+            color: #c33;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            border-left: 4px solid #c33;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        thead {
+            background: #f5f5f5;
+        }
+        th {
+            text-align: left;
+            padding: 15px;
+            color: #333;
+            font-weight: 600;
+            border-bottom: 2px solid #667eea;
+        }
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+        }
+        tr:hover {
+            background: #f9f9f9;
+        }
+        .positive {
+            color: #27ae60;
+            font-weight: 500;
+        }
+        .negative {
+            color: #e74c3c;
+            font-weight: 500;
+        }
+        .neutral {
+            color: #7f8c8d;
+        }
+        .price {
+            font-weight: 600;
+            color: #333;
+        }
+        .symbol {
+            font-weight: 600;
+            color: #667eea;
+        }
+        .last-updated {
+            text-align: center;
+            color: #999;
+            font-size: 0.85em;
+            margin-top: 20px;
+        }
+        .refresh-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.95em;
+            transition: background 0.3s;
+        }
+        .refresh-btn:hover {
+            background: #764ba2;
+        }
+        .refresh-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Hello World! 👋</h1>
-        <p>Market Monitor is coming soon...</p>
+        <h1>📈 Market Monitor</h1>
+        <p class="info">Bucharest Stock Exchange (BVB) - Real-time Stock Prices</p>
+        
+        <button id="refreshBtn" class="refresh-btn">🔄 Refresh Data</button>
+        
+        <div id="error" class="error" style="display: none;"></div>
+        <div id="loading" class="loading">Loading stock data...</div>
+        
+        <table id="stockTable" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Price (RON)</th>
+                    <th>Change</th>
+                    <th>Variation %</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+        
+        <p class="last-updated">Last updated: <span id="lastUpdated">-</span></p>
     </div>
+
+    <script>
+        const API_URL = 'http://localhost:5000/api/stocks';
+
+        async function loadStockData() {
+            try {
+                const loading = document.getElementById('loading');
+                const error = document.getElementById('error');
+                const refreshBtn = document.getElementById('refreshBtn');
+                
+                loading.style.display = 'block';
+                error.style.display = 'none';
+                refreshBtn.disabled = true;
+
+                const response = await fetch(API_URL);
+                
+                if (!response.ok) {
+                    throw new Error('Could not load stock data');
+                }
+                
+                const data = await response.json();
+                displayStocks(data.stocks, data.timestamp);
+                loading.style.display = 'none';
+            } catch (err) {
+                showError('Unable to fetch stock data. Make sure the backend server is running on http://localhost:5000');
+                console.error('Error:', err);
+            } finally {
+                document.getElementById('refreshBtn').disabled = false;
+            }
+        }
+
+        function displayStocks(stocks, timestamp) {
+            const tableBody = document.getElementById('tableBody');
+            const table = document.getElementById('stockTable');
+
+            tableBody.innerHTML = '';
+
+            if (stocks.length === 0) {
+                showError('No stock data available');
+                return;
+            }
+
+            stocks.forEach(stock => {
+                const row = document.createElement('tr');
+                const variation = parseFloat(stock.variation);
+                const changeClass = variation > 0 ? 'positive' : variation < 0 ? 'negative' : 'neutral';
+                const changeSymbol = variation > 0 ? '▲' : variation < 0 ? '▼' : '–';
+
+                row.innerHTML = `
+                    <td><span class="symbol">${stock.symbol}</span></td>
+                    <td><span class="price">${parseFloat(stock.price).toFixed(2)}</span></td>
+                    <td><span class="${changeClass}">${changeSymbol} ${stock.change}</span></td>
+                    <td><span class="${changeClass}">${changeSymbol} ${stock.variation}%</span></td>
+                `;
+                tableBody.appendChild(row);
+            });
+
+            table.style.display = 'table';
+            document.getElementById('lastUpdated').textContent = new Date(timestamp).toLocaleString();
+        }
+
+        function showError(message) {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('stockTable').style.display = 'none';
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+
+        // Load data when page loads
+        window.addEventListener('DOMContentLoaded', loadStockData);
+
+        // Refresh button
+        document.getElementById('refreshBtn').addEventListener('click', loadStockData);
+
+        // Auto-refresh every 5 minutes
+        setInterval(loadStockData, 300000);
+    </script>
 </body>
 </html>
