@@ -1,29 +1,53 @@
 {
-  "timestamp": "2026-08-07T15:09:22.347170",
+  "timestamp": "2026-08-07T16:05:50.140480",
   "stocks": [
+    {
+      "symbol": "EAIRO249YW1FZP5",
+      "name": "Electro-Alfa International S.A.",
+      "price": "15.0000",
+      "variation": "07.08.2026 17:59"
+    },
     {
       "symbol": "SNPROSNPPACNOR9",
       "name": "OMV PETROM S.A.",
       "price": "1.2700",
-      "variation": "07.08.2026 17:54"
+      "variation": "07.08.2026 17:59"
+    },
+    {
+      "symbol": "CFHROM2TZIHW2M4",
+      "name": "CRIS-TIM FAMILY HOLDING S.A.",
+      "price": "48.0000",
+      "variation": "07.08.2026 17:58"
     },
     {
       "symbol": "TLVROTLVAACNOR1",
       "name": "BANCA TRANSILVANIA S.A.",
       "price": "37.4600",
-      "variation": "07.08.2026 17:54"
+      "variation": "07.08.2026 17:57"
+    },
+    {
+      "symbol": "SNNROSNNEACNOR8",
+      "name": "S.N. NUCLEARELECTRICA S.A.",
+      "price": "66.3000",
+      "variation": "07.08.2026 17:57"
+    },
+    {
+      "symbol": "DIGINL0012294474",
+      "name": "Digi Communications N.V.",
+      "price": "66.5000",
+      "variation": "07.08.2026 17:57"
+    },
+    {
+      "symbol": "ELROELECACNOR5",
+      "name": "SOCIETATEA ENERGETICA ELECTRICA S.A.",
+      "price": "49.1500",
+      "variation": "07.08.2026 17:55"
     },
     {
       "symbol": "TGNROTGNTACNOR8",
       "name": "S.N.T.G.N. TRANSGAZ S.A.",
       "price": "95.7000",
       "variation": "07.08.2026 17:54"
-    },
-    {
-      "symbol": "EAIRO249YW1FZP5",
-      "name": "Electro-Alfa International S.A.",
-      "price": "15.0000",
-      "variation": "07.08.2026 17:53"
     },
     {
       "symbol": "TRANSIROSIFCACNOR8",
@@ -80,33 +104,15 @@
       "variation": "07.08.2026 17:50"
     },
     {
-      "symbol": "SNNROSNNEACNOR8",
-      "name": "S.N. NUCLEARELECTRICA S.A.",
-      "price": "66.3000",
-      "variation": "07.08.2026 17:50"
-    },
-    {
       "symbol": "ARSROAEROACNOR5",
       "name": "AEROSTAR S.A.",
       "price": "18.5000",
       "variation": "07.08.2026 17:50"
     },
     {
-      "symbol": "ELROELECACNOR5",
-      "name": "SOCIETATEA ENERGETICA ELECTRICA S.A.",
-      "price": "49.1500",
-      "variation": "07.08.2026 17:50"
-    },
-    {
       "symbol": "MROMEDLACNOR6",
       "name": "Med Life S.A.",
       "price": "11.6200",
-      "variation": "07.08.2026 17:50"
-    },
-    {
-      "symbol": "CFHROM2TZIHW2M4",
-      "name": "CRIS-TIM FAMILY HOLDING S.A.",
-      "price": "48.0000",
       "variation": "07.08.2026 17:50"
     },
     {
@@ -137,12 +143,6 @@
       "symbol": "ELGSROELGSACNOR6",
       "name": "AETA S.A.",
       "price": "0.2340",
-      "variation": "07.08.2026 17:50"
-    },
-    {
-      "symbol": "DIGINL0012294474",
-      "name": "Digi Communications N.V.",
-      "price": "66.5000",
       "variation": "07.08.2026 17:50"
     },
     {
