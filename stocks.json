@@ -1,29 +1,59 @@
 {
-  "timestamp": "2026-08-13T15:11:13.802634",
+  "timestamp": "2026-08-13T16:07:25.732002",
   "stocks": [
+    {
+      "symbol": "SNNROSNNEACNOR8",
+      "name": "S.N. NUCLEARELECTRICA S.A.",
+      "price": "65.4000",
+      "variation": "13.08.2026 17:59"
+    },
+    {
+      "symbol": "ELROELECACNOR5",
+      "name": "SOCIETATEA ENERGETICA ELECTRICA S.A.",
+      "price": "51.5000",
+      "variation": "13.08.2026 17:59"
+    },
+    {
+      "symbol": "TLVROTLVAACNOR1",
+      "name": "BANCA TRANSILVANIA S.A.",
+      "price": "37.4000",
+      "variation": "13.08.2026 17:59"
+    },
     {
       "symbol": "ARSROAEROACNOR5",
       "name": "AEROSTAR S.A.",
       "price": "18.2500",
-      "variation": "13.08.2026 17:55"
+      "variation": "13.08.2026 17:59"
+    },
+    {
+      "symbol": "ATBROATBIACNOR9",
+      "name": "ANTIBIOTICE S.A.",
+      "price": "2.1350",
+      "variation": "13.08.2026 17:59"
+    },
+    {
+      "symbol": "FPROFPTAACNOR5",
+      "name": "FONDUL PROPRIETATEA",
+      "price": "0.6270",
+      "variation": "13.08.2026 17:59"
     },
     {
       "symbol": "H2ORO4Q0Z5RO1B6",
       "name": "SOCIETATEA DE PRODUCERE A ENERGIEI ELECTRICE IN HIDROCENTRALE  HIDROELECTRICA S.A.",
       "price": "187.0000",
-      "variation": "13.08.2026 17:55"
+      "variation": "13.08.2026 17:59"
     },
     {
-      "symbol": "SNNROSNNEACNOR8",
-      "name": "S.N. NUCLEARELECTRICA S.A.",
-      "price": "65.4000",
-      "variation": "13.08.2026 17:55"
+      "symbol": "SNPROSNPPACNOR9",
+      "name": "OMV PETROM S.A.",
+      "price": "1.3140",
+      "variation": "13.08.2026 17:58"
     },
     {
       "symbol": "SNGROSNGNACNOR3",
       "name": "S.N.G.N. ROMGAZ S.A.",
       "price": "18.9000",
-      "variation": "13.08.2026 17:55"
+      "variation": "13.08.2026 17:58"
     },
     {
       "symbol": "MROMEDLACNOR6",
@@ -32,33 +62,9 @@
       "variation": "13.08.2026 17:55"
     },
     {
-      "symbol": "SNPROSNPPACNOR9",
-      "name": "OMV PETROM S.A.",
-      "price": "1.3140",
-      "variation": "13.08.2026 17:55"
-    },
-    {
-      "symbol": "TLVROTLVAACNOR1",
-      "name": "BANCA TRANSILVANIA S.A.",
-      "price": "37.4000",
-      "variation": "13.08.2026 17:54"
-    },
-    {
-      "symbol": "ATBROATBIACNOR9",
-      "name": "ANTIBIOTICE S.A.",
-      "price": "2.1350",
-      "variation": "13.08.2026 17:54"
-    },
-    {
       "symbol": "DIGINL0012294474",
       "name": "Digi Communications N.V.",
       "price": "67.6000",
-      "variation": "13.08.2026 17:54"
-    },
-    {
-      "symbol": "ELROELECACNOR5",
-      "name": "SOCIETATEA ENERGETICA ELECTRICA S.A.",
-      "price": "51.5000",
       "variation": "13.08.2026 17:54"
     },
     {
@@ -89,12 +95,6 @@
       "symbol": "SAFERO0MDTLNZV25",
       "name": "SAFETECH INNOVATIONS S.A.",
       "price": "1.1350",
-      "variation": "13.08.2026 17:50"
-    },
-    {
-      "symbol": "FPROFPTAACNOR5",
-      "name": "FONDUL PROPRIETATEA",
-      "price": "0.6270",
       "variation": "13.08.2026 17:50"
     },
     {
