@@ -1,16 +1,70 @@
 {
-  "timestamp": "2026-08-25T15:09:24.509921",
+  "timestamp": "2026-08-25T15:55:14.076982",
   "stocks": [
     {
-      "symbol": "DIGINL0012294474",
-      "name": "Digi Communications N.V.",
-      "price": "66.0000",
-      "variation": "25.08.2026 17:54"
+      "symbol": "PECY0200900914",
+      "name": "Premier Energy PLC",
+      "price": "64.2000",
+      "variation": "25.08.2026 17:59"
+    },
+    {
+      "symbol": "SMTLRONLG8JKKYH3",
+      "name": "SIMTEL TEAM",
+      "price": "43.8000",
+      "variation": "25.08.2026 17:59"
+    },
+    {
+      "symbol": "TELROTSELACNOR9",
+      "name": "C.N.T.E.E. TRANSELECTRICA",
+      "price": "109.8000",
+      "variation": "25.08.2026 17:59"
     },
     {
       "symbol": "SNGROSNGNACNOR3",
       "name": "S.N.G.N. ROMGAZ S.A.",
       "price": "19.8600",
+      "variation": "25.08.2026 17:59"
+    },
+    {
+      "symbol": "VNCROVRJUACNOR7",
+      "name": "VRANCART SA",
+      "price": "0.0925",
+      "variation": "25.08.2026 17:58"
+    },
+    {
+      "symbol": "TBMROTBMBACNOR9",
+      "name": "TURBOMECANICA S.A.",
+      "price": "0.2900",
+      "variation": "25.08.2026 17:58"
+    },
+    {
+      "symbol": "CFHROM2TZIHW2M4",
+      "name": "CRIS-TIM FAMILY HOLDING S.A.",
+      "price": "55.5000",
+      "variation": "25.08.2026 17:57"
+    },
+    {
+      "symbol": "ARSROAEROACNOR5",
+      "name": "AEROSTAR S.A.",
+      "price": "19.0000",
+      "variation": "25.08.2026 17:56"
+    },
+    {
+      "symbol": "BRDROBRDBACNOR2",
+      "name": "BRD - GROUPE SOCIETE GENERALE S.A.",
+      "price": "36.4500",
+      "variation": "25.08.2026 17:56"
+    },
+    {
+      "symbol": "DIGINL0012294474",
+      "name": "Digi Communications N.V.",
+      "price": "66.0000",
+      "variation": "25.08.2026 17:55"
+    },
+    {
+      "symbol": "TRIPROE1N5GQPH38",
+      "name": "CHRISTIAN '76 TOUR S.A.",
+      "price": "1.7180",
       "variation": "25.08.2026 17:54"
     },
     {
@@ -18,24 +72,6 @@
       "name": "BANCA TRANSILVANIA S.A.",
       "price": "37.0000",
       "variation": "25.08.2026 17:54"
-    },
-    {
-      "symbol": "PECY0200900914",
-      "name": "Premier Energy PLC",
-      "price": "64.2000",
-      "variation": "25.08.2026 17:54"
-    },
-    {
-      "symbol": "CFHROM2TZIHW2M4",
-      "name": "CRIS-TIM FAMILY HOLDING S.A.",
-      "price": "55.5000",
-      "variation": "25.08.2026 17:54"
-    },
-    {
-      "symbol": "BRDROBRDBACNOR2",
-      "name": "BRD - GROUPE SOCIETE GENERALE S.A.",
-      "price": "36.4500",
-      "variation": "25.08.2026 17:53"
     },
     {
       "symbol": "COTEROCOTEACNOR7",
@@ -47,12 +83,6 @@
       "symbol": "INFINITYROSIFEACNOR4",
       "name": "INFINITY CAPITAL INVESTMENTS S.A.",
       "price": "4.7000",
-      "variation": "25.08.2026 17:53"
-    },
-    {
-      "symbol": "TELROTSELACNOR9",
-      "name": "C.N.T.E.E. TRANSELECTRICA",
-      "price": "109.8000",
       "variation": "25.08.2026 17:53"
     },
     {
@@ -74,12 +104,6 @@
       "variation": "25.08.2026 17:52"
     },
     {
-      "symbol": "TRIPROE1N5GQPH38",
-      "name": "CHRISTIAN '76 TOUR S.A.",
-      "price": "1.7180",
-      "variation": "25.08.2026 17:52"
-    },
-    {
       "symbol": "LONGROSIFDACNOR6",
       "name": "LONGSHIELD INVESTMENT GROUP S.A.",
       "price": "2.5600",
@@ -98,12 +122,6 @@
       "variation": "25.08.2026 17:51"
     },
     {
-      "symbol": "SMTLRONLG8JKKYH3",
-      "name": "SIMTEL TEAM",
-      "price": "43.8000",
-      "variation": "25.08.2026 17:51"
-    },
-    {
       "symbol": "AQRO7066ZEA1R9",
       "name": "AQUILA PART PROD COM",
       "price": "1.7700",
@@ -119,12 +137,6 @@
       "symbol": "BRKROBRKOACNOR0",
       "name": "SSIF BRK FINANCIAL GROUP SA",
       "price": "0.1620",
-      "variation": "25.08.2026 17:50"
-    },
-    {
-      "symbol": "TBMROTBMBACNOR9",
-      "name": "TURBOMECANICA S.A.",
-      "price": "0.2900",
       "variation": "25.08.2026 17:50"
     },
     {
@@ -290,12 +302,6 @@
       "variation": "25.08.2026 17:24"
     },
     {
-      "symbol": "VNCROVRJUACNOR7",
-      "name": "VRANCART SA",
-      "price": "0.0925",
-      "variation": "25.08.2026 17:16"
-    },
-    {
       "symbol": "WINECY0107600716",
       "name": "PURCARI WINERIES PUBLIC COMPANY LIMITED",
       "price": "19.6000",
@@ -324,12 +330,6 @@
       "name": "EVERGENT INVESTMENTS S.A.",
       "price": "3.5100",
       "variation": "25.08.2026 17:03"
-    },
-    {
-      "symbol": "ARSROAEROACNOR5",
-      "name": "AEROSTAR S.A.",
-      "price": "19.0000",
-      "variation": "25.08.2026 17:02"
     },
     {
       "symbol": "SNOROSAUVACNOR4",
