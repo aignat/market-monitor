@@ -1,17 +1,77 @@
 {
-  "timestamp": "2026-09-16T15:08:57.273217",
+  "timestamp": "2026-09-16T18:51:15.502730",
   "stocks": [
     {
-      "symbol": "ELROELECACNOR5",
-      "name": "SOCIETATEA ENERGETICA ELECTRICA S.A.",
-      "price": "47.0000",
-      "variation": "16.09.2026 17:53"
+      "symbol": "H2ORO4Q0Z5RO1B6",
+      "name": "SOCIETATEA DE PRODUCERE A ENERGIEI ELECTRICE IN HIDROCENTRALE  HIDROELECTRICA S.A.",
+      "price": "169.2000",
+      "variation": "16.09.2026 17:59"
     },
     {
       "symbol": "SNPROSNPPACNOR9",
       "name": "OMV PETROM S.A.",
       "price": "1.1840",
-      "variation": "16.09.2026 17:53"
+      "variation": "16.09.2026 17:59"
+    },
+    {
+      "symbol": "TLVROTLVAACNOR1",
+      "name": "BANCA TRANSILVANIA S.A.",
+      "price": "33.4000",
+      "variation": "16.09.2026 17:59"
+    },
+    {
+      "symbol": "TELROTSELACNOR9",
+      "name": "C.N.T.E.E. TRANSELECTRICA",
+      "price": "93.3000",
+      "variation": "16.09.2026 17:59"
+    },
+    {
+      "symbol": "TGNROTGNTACNOR8",
+      "name": "S.N.T.G.N. TRANSGAZ S.A.",
+      "price": "80.2000",
+      "variation": "16.09.2026 17:59"
+    },
+    {
+      "symbol": "SNGROSNGNACNOR3",
+      "name": "S.N.G.N. ROMGAZ S.A.",
+      "price": "15.4000",
+      "variation": "16.09.2026 17:59"
+    },
+    {
+      "symbol": "RRCROPTRMACNOR5",
+      "name": "ROMPETROL RAFINARE S.A.",
+      "price": "0.2060",
+      "variation": "16.09.2026 17:58"
+    },
+    {
+      "symbol": "DIGINL0012294474",
+      "name": "Digi Communications N.V.",
+      "price": "56.6000",
+      "variation": "16.09.2026 17:57"
+    },
+    {
+      "symbol": "FPROFPTAACNOR5",
+      "name": "FONDUL PROPRIETATEA",
+      "price": "0.5610",
+      "variation": "16.09.2026 17:56"
+    },
+    {
+      "symbol": "ELROELECACNOR5",
+      "name": "SOCIETATEA ENERGETICA ELECTRICA S.A.",
+      "price": "47.0000",
+      "variation": "16.09.2026 17:56"
+    },
+    {
+      "symbol": "ARSROAEROACNOR5",
+      "name": "AEROSTAR S.A.",
+      "price": "17.3500",
+      "variation": "16.09.2026 17:56"
+    },
+    {
+      "symbol": "SAFERO0MDTLNZV25",
+      "name": "SAFETECH INNOVATIONS S.A.",
+      "price": "0.9920",
+      "variation": "16.09.2026 17:55"
     },
     {
       "symbol": "BRDROBRDBACNOR2",
@@ -26,30 +86,6 @@
       "variation": "16.09.2026 17:53"
     },
     {
-      "symbol": "DIGINL0012294474",
-      "name": "Digi Communications N.V.",
-      "price": "56.6000",
-      "variation": "16.09.2026 17:53"
-    },
-    {
-      "symbol": "TLVROTLVAACNOR1",
-      "name": "BANCA TRANSILVANIA S.A.",
-      "price": "33.4000",
-      "variation": "16.09.2026 17:53"
-    },
-    {
-      "symbol": "TELROTSELACNOR9",
-      "name": "C.N.T.E.E. TRANSELECTRICA",
-      "price": "93.3000",
-      "variation": "16.09.2026 17:52"
-    },
-    {
-      "symbol": "H2ORO4Q0Z5RO1B6",
-      "name": "SOCIETATEA DE PRODUCERE A ENERGIEI ELECTRICE IN HIDROCENTRALE  HIDROELECTRICA S.A.",
-      "price": "169.2000",
-      "variation": "16.09.2026 17:52"
-    },
-    {
       "symbol": "TTSROYCRRK66RD8",
       "name": "TTS (TRANSPORT TRADE SERVICES) S.A.",
       "price": "6.7000",
@@ -60,24 +96,6 @@
       "name": "BURSA DE VALORI BUCURESTI SA",
       "price": "70.4000",
       "variation": "16.09.2026 17:52"
-    },
-    {
-      "symbol": "SNGROSNGNACNOR3",
-      "name": "S.N.G.N. ROMGAZ S.A.",
-      "price": "15.4000",
-      "variation": "16.09.2026 17:51"
-    },
-    {
-      "symbol": "TGNROTGNTACNOR8",
-      "name": "S.N.T.G.N. TRANSGAZ S.A.",
-      "price": "80.2000",
-      "variation": "16.09.2026 17:51"
-    },
-    {
-      "symbol": "RRCROPTRMACNOR5",
-      "name": "ROMPETROL RAFINARE S.A.",
-      "price": "0.2060",
-      "variation": "16.09.2026 17:51"
     },
     {
       "symbol": "SNNROSNNEACNOR8",
@@ -101,12 +119,6 @@
       "symbol": "AQRO7066ZEA1R9",
       "name": "AQUILA PART PROD COM",
       "price": "1.7800",
-      "variation": "16.09.2026 17:50"
-    },
-    {
-      "symbol": "FPROFPTAACNOR5",
-      "name": "FONDUL PROPRIETATEA",
-      "price": "0.5610",
       "variation": "16.09.2026 17:50"
     },
     {
@@ -188,12 +200,6 @@
       "variation": "16.09.2026 17:43"
     },
     {
-      "symbol": "ARSROAEROACNOR5",
-      "name": "AEROSTAR S.A.",
-      "price": "17.3500",
-      "variation": "16.09.2026 17:42"
-    },
-    {
       "symbol": "TBMROTBMBACNOR9",
       "name": "TURBOMECANICA S.A.",
       "price": "0.3030",
@@ -251,12 +257,6 @@
       "symbol": "ELGSROELGSACNOR6",
       "name": "AETA S.A.",
       "price": "0.2580",
-      "variation": "16.09.2026 17:30"
-    },
-    {
-      "symbol": "SAFERO0MDTLNZV25",
-      "name": "SAFETECH INNOVATIONS S.A.",
-      "price": "0.9920",
       "variation": "16.09.2026 17:30"
     },
     {
