@@ -1,77 +1,377 @@
 {
-  "timestamp": "2026-10-09T03:06:45.578592",
+  "timestamp": "2026-10-09T10:23:48.208315",
   "stocks": [
     {
-      "symbol": "LONGROSIFDACNOR6",
-      "name": "LONGSHIELD INVESTMENT GROUP S.A.",
-      "price": "2.4300",
-      "variation": "08.10.2026 17:59"
+      "symbol": "SNGROSNGNACNOR3",
+      "name": "S.N.G.N. ROMGAZ S.A.",
+      "price": "17.6000",
+      "variation": "09.10.2026 13:08"
     },
     {
-      "symbol": "LIONROSIFAACNOR2",
-      "name": "LION CAPITAL S.A.",
-      "price": "4.7800",
-      "variation": "08.10.2026 17:59"
+      "symbol": "TBMROTBMBACNOR9",
+      "name": "TURBOMECANICA S.A.",
+      "price": "0.2980",
+      "variation": "09.10.2026 13:08"
     },
     {
-      "symbol": "SNPROSNPPACNOR9",
-      "name": "OMV PETROM S.A.",
-      "price": "1.2340",
-      "variation": "08.10.2026 17:59"
+      "symbol": "ELROELECACNOR5",
+      "name": "SOCIETATEA ENERGETICA ELECTRICA S.A.",
+      "price": "50.1000",
+      "variation": "09.10.2026 13:08"
     },
     {
       "symbol": "H2ORO4Q0Z5RO1B6",
       "name": "SOCIETATEA DE PRODUCERE A ENERGIEI ELECTRICE IN HIDROCENTRALE  HIDROELECTRICA S.A.",
-      "price": "182.0000",
-      "variation": "08.10.2026 17:58"
+      "price": "175.0000",
+      "variation": "09.10.2026 13:08"
     },
     {
-      "symbol": "EAIRO249YW1FZP5",
-      "name": "Electro-Alfa International S.A.",
-      "price": "16.1800",
-      "variation": "08.10.2026 17:57"
+      "symbol": "SNPROSNPPACNOR9",
+      "name": "OMV PETROM S.A.",
+      "price": "1.2350",
+      "variation": "09.10.2026 13:08"
+    },
+    {
+      "symbol": "MROMEDLACNOR6",
+      "name": "Med Life S.A.",
+      "price": "11.0000",
+      "variation": "09.10.2026 13:08"
+    },
+    {
+      "symbol": "ONEROJ8YZPDHWW8",
+      "name": "ONE UNITED PROPERTIES",
+      "price": "34.4500",
+      "variation": "09.10.2026 13:08"
     },
     {
       "symbol": "DIGINL0012294474",
       "name": "Digi Communications N.V.",
-      "price": "57.0000",
-      "variation": "08.10.2026 17:57"
+      "price": "56.8000",
+      "variation": "09.10.2026 13:07"
     },
     {
-      "symbol": "SNGROSNGNACNOR3",
-      "name": "S.N.G.N. ROMGAZ S.A.",
-      "price": "17.7000",
-      "variation": "08.10.2026 17:57"
+      "symbol": "TRANSIROSIFCACNOR8",
+      "name": "TRANSILVANIA INVESTMENTS ALLIANCE S.A.",
+      "price": "0.6880",
+      "variation": "09.10.2026 13:07"
     },
     {
-      "symbol": "RRCROPTRMACNOR5",
-      "name": "ROMPETROL RAFINARE S.A.",
-      "price": "0.2700",
-      "variation": "08.10.2026 17:57"
+      "symbol": "BVBROBVBAACNOR0",
+      "name": "BURSA DE VALORI BUCURESTI SA",
+      "price": "76.2000",
+      "variation": "09.10.2026 13:07"
     },
     {
       "symbol": "BRDROBRDBACNOR2",
       "name": "BRD - GROUPE SOCIETE GENERALE S.A.",
       "price": "30.9000",
-      "variation": "08.10.2026 17:57"
+      "variation": "09.10.2026 13:07"
+    },
+    {
+      "symbol": "RRCROPTRMACNOR5",
+      "name": "ROMPETROL RAFINARE S.A.",
+      "price": "0.2880",
+      "variation": "09.10.2026 13:07"
+    },
+    {
+      "symbol": "TGNROTGNTACNOR8",
+      "name": "S.N.T.G.N. TRANSGAZ S.A.",
+      "price": "86.1000",
+      "variation": "09.10.2026 13:06"
     },
     {
       "symbol": "TLVROTLVAACNOR1",
       "name": "BANCA TRANSILVANIA S.A.",
-      "price": "35.2000",
-      "variation": "08.10.2026 17:57"
+      "price": "35.2800",
+      "variation": "09.10.2026 13:06"
+    },
+    {
+      "symbol": "FPROFPTAACNOR5",
+      "name": "FONDUL PROPRIETATEA",
+      "price": "0.6120",
+      "variation": "09.10.2026 13:06"
+    },
+    {
+      "symbol": "BNETROBNETACNOR1",
+      "name": "BITTNET SYSTEMS SA",
+      "price": "0.1140",
+      "variation": "09.10.2026 13:05"
+    },
+    {
+      "symbol": "SNNROSNNEACNOR8",
+      "name": "S.N. NUCLEARELECTRICA S.A.",
+      "price": "57.3000",
+      "variation": "09.10.2026 13:04"
+    },
+    {
+      "symbol": "LIONROSIFAACNOR2",
+      "name": "LION CAPITAL S.A.",
+      "price": "4.7700",
+      "variation": "09.10.2026 13:04"
+    },
+    {
+      "symbol": "EBSAT0000652011",
+      "name": "Erste Group Bank AG",
+      "price": "591.0000",
+      "variation": "09.10.2026 13:03"
+    },
+    {
+      "symbol": "SFGROSFGPACNOR4",
+      "name": "SPHERA FRANCHISE GROUP",
+      "price": "32.2000",
+      "variation": "09.10.2026 13:02"
     },
     {
       "symbol": "ATBROATBIACNOR9",
       "name": "ANTIBIOTICE S.A.",
       "price": "1.9960",
-      "variation": "08.10.2026 17:54"
+      "variation": "09.10.2026 12:58"
+    },
+    {
+      "symbol": "CFHROM2TZIHW2M4",
+      "name": "CRIS-TIM FAMILY HOLDING S.A.",
+      "price": "49.6500",
+      "variation": "09.10.2026 12:57"
     },
     {
       "symbol": "PECY0200900914",
       "name": "Premier Energy PLC",
-      "price": "54.0000",
-      "variation": "08.10.2026 17:53"
+      "price": "53.2000",
+      "variation": "09.10.2026 12:56"
+    },
+    {
+      "symbol": "SAFERO0MDTLNZV25",
+      "name": "SAFETECH INNOVATIONS S.A.",
+      "price": "0.9900",
+      "variation": "09.10.2026 12:54"
+    },
+    {
+      "symbol": "EFOROEFRIACNOR6",
+      "name": "TURISM, HOTELURI, RESTAURANTE MAREA NEAGRA S.A.",
+      "price": "0.9200",
+      "variation": "09.10.2026 12:53"
+    },
+    {
+      "symbol": "AAGROAAGEACNOR7",
+      "name": "S.C AAGES S.A.",
+      "price": "4.0200",
+      "variation": "09.10.2026 12:51"
+    },
+    {
+      "symbol": "EAIRO249YW1FZP5",
+      "name": "Electro-Alfa International S.A.",
+      "price": "15.9800",
+      "variation": "09.10.2026 12:51"
+    },
+    {
+      "symbol": "TTSROYCRRK66RD8",
+      "name": "TTS (TRANSPORT TRADE SERVICES) S.A.",
+      "price": "7.3400",
+      "variation": "09.10.2026 12:50"
+    },
+    {
+      "symbol": "COTEROCOTEACNOR7",
+      "name": "CONPET SA",
+      "price": "74.8000",
+      "variation": "09.10.2026 12:46"
+    },
+    {
+      "symbol": "TELROTSELACNOR9",
+      "name": "C.N.T.E.E. TRANSELECTRICA",
+      "price": "99.0000",
+      "variation": "09.10.2026 12:45"
+    },
+    {
+      "symbol": "AROBSROWMR49B0RG5",
+      "name": "AROBS TRANSILVANIA SOFTWARE",
+      "price": "0.7500",
+      "variation": "09.10.2026 12:45"
+    },
+    {
+      "symbol": "AQRO7066ZEA1R9",
+      "name": "AQUILA PART PROD COM",
+      "price": "1.5900",
+      "variation": "09.10.2026 12:42"
+    },
+    {
+      "symbol": "ARSROAEROACNOR5",
+      "name": "AEROSTAR S.A.",
+      "price": "17.2500",
+      "variation": "09.10.2026 12:35"
+    },
+    {
+      "symbol": "BRKROBRKOACNOR0",
+      "name": "SSIF BRK FINANCIAL GROUP SA",
+      "price": "0.1510",
+      "variation": "09.10.2026 12:27"
+    },
+    {
+      "symbol": "ALUROALUMACNOR8",
+      "name": "ALUMIL ROM INDUSTRY S.A.",
+      "price": "2.5700",
+      "variation": "09.10.2026 12:26"
+    },
+    {
+      "symbol": "TRPROTRPLACNOR7",
+      "name": "TERAPLAST SA",
+      "price": "0.3885",
+      "variation": "09.10.2026 12:23"
+    },
+    {
+      "symbol": "SMTLRONLG8JKKYH3",
+      "name": "SIMTEL TEAM",
+      "price": "37.1000",
+      "variation": "09.10.2026 12:23"
+    },
+    {
+      "symbol": "PTRROPESAACNOR0",
+      "name": "ROMPETROL WELL SERVICES S.A.",
+      "price": "0.6640",
+      "variation": "09.10.2026 12:18"
+    },
+    {
+      "symbol": "WINECY0107600716",
+      "name": "PURCARI WINERIES PUBLIC COMPANY LIMITED",
+      "price": "20.2000",
+      "variation": "09.10.2026 12:18"
+    },
+    {
+      "symbol": "RMAHRORMAHACNOR2",
+      "name": "FARMACEUTICA REMEDIA SA",
+      "price": "0.7300",
+      "variation": "09.10.2026 12:15"
+    },
+    {
+      "symbol": "OILROOILTACNOR9",
+      "name": "OIL TERMINAL S.A.",
+      "price": "0.1150",
+      "variation": "09.10.2026 12:12"
+    },
+    {
+      "symbol": "EVERROSIFBACNOR0",
+      "name": "EVERGENT INVESTMENTS S.A.",
+      "price": "3.4000",
+      "variation": "09.10.2026 11:43"
+    },
+    {
+      "symbol": "BRMROBEMAACNOR3",
+      "name": "BERMAS S.A.",
+      "price": "1.9000",
+      "variation": "09.10.2026 11:43"
+    },
+    {
+      "symbol": "TBKROTBKAACNOR5",
+      "name": "TRANSILVANIA BROKER DE ASIGURARE SA",
+      "price": "16.0000",
+      "variation": "09.10.2026 11:40"
+    },
+    {
+      "symbol": "IARVROIARVACNOR1",
+      "name": "IAR SA Brasov",
+      "price": "30.8000",
+      "variation": "09.10.2026 11:29"
+    },
+    {
+      "symbol": "ROC1RO9FY9SRFU46",
+      "name": "ROCA INDUSTRY HOLDINGROCK1 S.A.",
+      "price": "0.5900",
+      "variation": "09.10.2026 11:26"
+    },
+    {
+      "symbol": "TRIPROE1N5GQPH38",
+      "name": "CHRISTIAN '76 TOUR S.A.",
+      "price": "1.3900",
+      "variation": "09.10.2026 11:23"
+    },
+    {
+      "symbol": "CMCMROCMCMACNOR0",
+      "name": "COMCM SA CONSTANTA",
+      "price": "0.2940",
+      "variation": "09.10.2026 11:13"
+    },
+    {
+      "symbol": "RPHROIAFRACNOR4",
+      "name": "ROPHARMA SA",
+      "price": "0.2000",
+      "variation": "09.10.2026 11:11"
+    },
+    {
+      "symbol": "VNCROVRJUACNOR7",
+      "name": "VRANCART SA",
+      "price": "0.0940",
+      "variation": "09.10.2026 11:08"
+    },
+    {
+      "symbol": "INFINITYROSIFEACNOR4",
+      "name": "INFINITY CAPITAL INVESTMENTS S.A.",
+      "price": "4.8400",
+      "variation": "09.10.2026 11:08"
+    },
+    {
+      "symbol": "LONGROSIFDACNOR6",
+      "name": "LONGSHIELD INVESTMENT GROUP S.A.",
+      "price": "2.4400",
+      "variation": "09.10.2026 11:06"
+    },
+    {
+      "symbol": "PBKROBACRACNOR6",
+      "name": "PATRIA BANK S.A.",
+      "price": "0.1440",
+      "variation": "09.10.2026 10:50"
+    },
+    {
+      "symbol": "PREBROPREBACNOR0",
+      "name": "PREBET SA AIUD",
+      "price": "2.1900",
+      "variation": "09.10.2026 10:45"
+    },
+    {
+      "symbol": "ELGSROELGSACNOR6",
+      "name": "AETA S.A.",
+      "price": "0.2500",
+      "variation": "09.10.2026 10:38"
+    },
+    {
+      "symbol": "SOCPROSOCPACNOR5",
+      "name": "SOCEP S.A.",
+      "price": "1.8100",
+      "variation": "09.10.2026 10:32"
+    },
+    {
+      "symbol": "PPLROPRLAACNOR7",
+      "name": "PROMATERIS S.A.",
+      "price": "7.6500",
+      "variation": "09.10.2026 10:31"
+    },
+    {
+      "symbol": "SNOROSAUVACNOR4",
+      "name": "SANTIERUL NAVAL ORSOVA S.A.",
+      "price": "25.2000",
+      "variation": "09.10.2026 10:22"
+    },
+    {
+      "symbol": "CRCROCHOBACNOR8",
+      "name": "CHIMCOMPLEX BORZESTI SA ONESTI",
+      "price": "5.4000",
+      "variation": "09.10.2026 10:18"
+    },
+    {
+      "symbol": "ARTEROARTEACNOR4",
+      "name": "ARTEGO SA",
+      "price": "8.3000",
+      "variation": "09.10.2026 10:06"
+    },
+    {
+      "symbol": "ELMAROELMAACNOR2",
+      "name": "ELECTROMAGNETICA SA",
+      "price": "0.2500",
+      "variation": "09.10.2026 10:05"
+    },
+    {
+      "symbol": "COMIROCOMIACNOR3",
+      "name": "CONDMAG S.A.",
+      "price": "0.0090",
+      "variation": "09.10.2026 10:00"
     },
     {
       "symbol": "CMPROCMPSACNOR9",
@@ -80,178 +380,10 @@
       "variation": "08.10.2026 17:52"
     },
     {
-      "symbol": "PBKROBACRACNOR6",
-      "name": "PATRIA BANK S.A.",
-      "price": "0.1445",
-      "variation": "08.10.2026 17:50"
-    },
-    {
-      "symbol": "BRKROBRKOACNOR0",
-      "name": "SSIF BRK FINANCIAL GROUP SA",
-      "price": "0.1490",
-      "variation": "08.10.2026 17:50"
-    },
-    {
-      "symbol": "SNNROSNNEACNOR8",
-      "name": "S.N. NUCLEARELECTRICA S.A.",
-      "price": "56.3000",
-      "variation": "08.10.2026 17:50"
-    },
-    {
-      "symbol": "TTSROYCRRK66RD8",
-      "name": "TTS (TRANSPORT TRADE SERVICES) S.A.",
-      "price": "7.3600",
-      "variation": "08.10.2026 17:50"
-    },
-    {
-      "symbol": "ELROELECACNOR5",
-      "name": "SOCIETATEA ENERGETICA ELECTRICA S.A.",
-      "price": "50.9000",
-      "variation": "08.10.2026 17:50"
-    },
-    {
-      "symbol": "MROMEDLACNOR6",
-      "name": "Med Life S.A.",
-      "price": "11.0400",
-      "variation": "08.10.2026 17:50"
-    },
-    {
-      "symbol": "TRANSIROSIFCACNOR8",
-      "name": "TRANSILVANIA INVESTMENTS ALLIANCE S.A.",
-      "price": "0.6880",
-      "variation": "08.10.2026 17:50"
-    },
-    {
-      "symbol": "TGNROTGNTACNOR8",
-      "name": "S.N.T.G.N. TRANSGAZ S.A.",
-      "price": "86.6000",
-      "variation": "08.10.2026 17:50"
-    },
-    {
-      "symbol": "EBSAT0000652011",
-      "name": "Erste Group Bank AG",
-      "price": "584.0000",
-      "variation": "08.10.2026 17:50"
-    },
-    {
-      "symbol": "SFGROSFGPACNOR4",
-      "name": "SPHERA FRANCHISE GROUP",
-      "price": "32.6000",
-      "variation": "08.10.2026 17:44"
-    },
-    {
-      "symbol": "ARSROAEROACNOR5",
-      "name": "AEROSTAR S.A.",
-      "price": "17.0500",
-      "variation": "08.10.2026 17:44"
-    },
-    {
-      "symbol": "EVERROSIFBACNOR0",
-      "name": "EVERGENT INVESTMENTS S.A.",
-      "price": "3.3900",
-      "variation": "08.10.2026 17:44"
-    },
-    {
-      "symbol": "AROBSROWMR49B0RG5",
-      "name": "AROBS TRANSILVANIA SOFTWARE",
-      "price": "0.7460",
-      "variation": "08.10.2026 17:42"
-    },
-    {
-      "symbol": "TRIPROE1N5GQPH38",
-      "name": "CHRISTIAN '76 TOUR S.A.",
-      "price": "1.3900",
-      "variation": "08.10.2026 17:42"
-    },
-    {
-      "symbol": "TELROTSELACNOR9",
-      "name": "C.N.T.E.E. TRANSELECTRICA",
-      "price": "98.0000",
-      "variation": "08.10.2026 17:41"
-    },
-    {
-      "symbol": "ONEROJ8YZPDHWW8",
-      "name": "ONE UNITED PROPERTIES",
-      "price": "33.6500",
-      "variation": "08.10.2026 17:39"
-    },
-    {
-      "symbol": "CFHROM2TZIHW2M4",
-      "name": "CRIS-TIM FAMILY HOLDING S.A.",
-      "price": "49.8000",
-      "variation": "08.10.2026 17:38"
-    },
-    {
-      "symbol": "TRPROTRPLACNOR7",
-      "name": "TERAPLAST SA",
-      "price": "0.3900",
-      "variation": "08.10.2026 17:37"
-    },
-    {
       "symbol": "ALTROALTCACNOR1",
       "name": "ALTUR S.A.",
       "price": "0.0695",
       "variation": "08.10.2026 17:35"
-    },
-    {
-      "symbol": "AQRO7066ZEA1R9",
-      "name": "AQUILA PART PROD COM",
-      "price": "1.5900",
-      "variation": "08.10.2026 17:34"
-    },
-    {
-      "symbol": "FPROFPTAACNOR5",
-      "name": "FONDUL PROPRIETATEA",
-      "price": "0.6110",
-      "variation": "08.10.2026 17:29"
-    },
-    {
-      "symbol": "SAFERO0MDTLNZV25",
-      "name": "SAFETECH INNOVATIONS S.A.",
-      "price": "0.9860",
-      "variation": "08.10.2026 17:29"
-    },
-    {
-      "symbol": "WINECY0107600716",
-      "name": "PURCARI WINERIES PUBLIC COMPANY LIMITED",
-      "price": "20.2000",
-      "variation": "08.10.2026 17:28"
-    },
-    {
-      "symbol": "BVBROBVBAACNOR0",
-      "name": "BURSA DE VALORI BUCURESTI SA",
-      "price": "76.8000",
-      "variation": "08.10.2026 17:23"
-    },
-    {
-      "symbol": "PPLROPRLAACNOR7",
-      "name": "PROMATERIS S.A.",
-      "price": "7.4500",
-      "variation": "08.10.2026 17:21"
-    },
-    {
-      "symbol": "SOCPROSOCPACNOR5",
-      "name": "SOCEP S.A.",
-      "price": "1.8100",
-      "variation": "08.10.2026 17:18"
-    },
-    {
-      "symbol": "RPHROIAFRACNOR4",
-      "name": "ROPHARMA SA",
-      "price": "0.2000",
-      "variation": "08.10.2026 17:06"
-    },
-    {
-      "symbol": "IARVROIARVACNOR1",
-      "name": "IAR SA Brasov",
-      "price": "30.9000",
-      "variation": "08.10.2026 17:05"
-    },
-    {
-      "symbol": "COMIROCOMIACNOR3",
-      "name": "CONDMAG S.A.",
-      "price": "0.0090",
-      "variation": "08.10.2026 17:05"
     },
     {
       "symbol": "CMFROCMBFACNOR6",
@@ -260,88 +392,10 @@
       "variation": "08.10.2026 17:02"
     },
     {
-      "symbol": "PTRROPESAACNOR0",
-      "name": "ROMPETROL WELL SERVICES S.A.",
-      "price": "0.6600",
-      "variation": "08.10.2026 17:02"
-    },
-    {
-      "symbol": "SMTLRONLG8JKKYH3",
-      "name": "SIMTEL TEAM",
-      "price": "37.9000",
-      "variation": "08.10.2026 16:56"
-    },
-    {
-      "symbol": "COTEROCOTEACNOR7",
-      "name": "CONPET SA",
-      "price": "74.8000",
-      "variation": "08.10.2026 16:45"
-    },
-    {
-      "symbol": "INFINITYROSIFEACNOR4",
-      "name": "INFINITY CAPITAL INVESTMENTS S.A.",
-      "price": "4.8500",
-      "variation": "08.10.2026 16:44"
-    },
-    {
-      "symbol": "BNETROBNETACNOR1",
-      "name": "BITTNET SYSTEMS SA",
-      "price": "0.1160",
-      "variation": "08.10.2026 16:36"
-    },
-    {
-      "symbol": "BRMROBEMAACNOR3",
-      "name": "BERMAS S.A.",
-      "price": "1.9000",
-      "variation": "08.10.2026 16:34"
-    },
-    {
-      "symbol": "ALUROALUMACNOR8",
-      "name": "ALUMIL ROM INDUSTRY S.A.",
-      "price": "2.6000",
-      "variation": "08.10.2026 16:34"
-    },
-    {
-      "symbol": "EFOROEFRIACNOR6",
-      "name": "TURISM, HOTELURI, RESTAURANTE MAREA NEAGRA S.A.",
-      "price": "0.9400",
-      "variation": "08.10.2026 16:31"
-    },
-    {
-      "symbol": "ROC1RO9FY9SRFU46",
-      "name": "ROCA INDUSTRY HOLDINGROCK1 S.A.",
-      "price": "0.5800",
-      "variation": "08.10.2026 15:55"
-    },
-    {
       "symbol": "IMPROIMPCACNOR0",
       "name": "IMPACT DEVELOPER & CONTRACTOR S.A.",
       "price": "3.7800",
       "variation": "08.10.2026 15:54"
-    },
-    {
-      "symbol": "TBMROTBMBACNOR9",
-      "name": "TURBOMECANICA S.A.",
-      "price": "0.3030",
-      "variation": "08.10.2026 15:41"
-    },
-    {
-      "symbol": "TBKROTBKAACNOR5",
-      "name": "TRANSILVANIA BROKER DE ASIGURARE SA",
-      "price": "16.1500",
-      "variation": "08.10.2026 15:41"
-    },
-    {
-      "symbol": "RMAHRORMAHACNOR2",
-      "name": "FARMACEUTICA REMEDIA SA",
-      "price": "0.7400",
-      "variation": "08.10.2026 15:39"
-    },
-    {
-      "symbol": "OILROOILTACNOR9",
-      "name": "OIL TERMINAL S.A.",
-      "price": "0.1150",
-      "variation": "08.10.2026 15:37"
     },
     {
       "symbol": "ALRROALROACNOR0",
@@ -374,22 +428,10 @@
       "variation": "08.10.2026 13:53"
     },
     {
-      "symbol": "VNCROVRJUACNOR7",
-      "name": "VRANCART SA",
-      "price": "0.0910",
-      "variation": "08.10.2026 13:53"
-    },
-    {
       "symbol": "UAMROUAMTACNOR1",
       "name": "UAMT S.A.",
       "price": "0.3440",
       "variation": "08.10.2026 13:38"
-    },
-    {
-      "symbol": "ARTEROARTEACNOR4",
-      "name": "ARTEGO SA",
-      "price": "8.1000",
-      "variation": "08.10.2026 13:28"
     },
     {
       "symbol": "ENPROENPCACNOR7",
@@ -404,52 +446,16 @@
       "variation": "08.10.2026 12:01"
     },
     {
-      "symbol": "CMCMROCMCMACNOR0",
-      "name": "COMCM SA CONSTANTA",
-      "price": "0.2560",
-      "variation": "08.10.2026 11:58"
-    },
-    {
       "symbol": "CBCROCBCHACNOR3",
       "name": "CARBOCHIM S.A.",
       "price": "24.8000",
       "variation": "08.10.2026 11:28"
     },
     {
-      "symbol": "AAGROAAGEACNOR7",
-      "name": "S.C AAGES S.A.",
-      "price": "4.0200",
-      "variation": "08.10.2026 10:56"
-    },
-    {
-      "symbol": "PREBROPREBACNOR0",
-      "name": "PREBET SA AIUD",
-      "price": "2.1900",
-      "variation": "08.10.2026 10:00"
-    },
-    {
-      "symbol": "SNOROSAUVACNOR4",
-      "name": "SANTIERUL NAVAL ORSOVA S.A.",
-      "price": "26.0000",
-      "variation": "07.10.2026 15:57"
-    },
-    {
       "symbol": "BUCVROBUCVACNOR6",
       "name": "BUCUR SA Bucuresti",
       "price": "1.1300",
       "variation": "07.10.2026 15:55"
-    },
-    {
-      "symbol": "ELGSROELGSACNOR6",
-      "name": "AETA S.A.",
-      "price": "0.2520",
-      "variation": "07.10.2026 14:59"
-    },
-    {
-      "symbol": "ELMAROELMAACNOR2",
-      "name": "ELECTROMAGNETICA SA",
-      "price": "0.2520",
-      "variation": "07.10.2026 14:17"
     },
     {
       "symbol": "ECTROELBOACNOR6",
@@ -480,12 +486,6 @@
       "name": "GREEN TECH INTERNATIONAL S.A.",
       "price": "13.8000",
       "variation": "06.10.2026 16:35"
-    },
-    {
-      "symbol": "CRCROCHOBACNOR8",
-      "name": "CHIMCOMPLEX BORZESTI SA ONESTI",
-      "price": "5.8400",
-      "variation": "06.10.2026 14:55"
     },
     {
       "symbol": "NAPORONAPOACNOR0",
