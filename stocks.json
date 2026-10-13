@@ -1,17 +1,41 @@
 {
-  "timestamp": "2026-10-13T15:12:10.966576",
+  "timestamp": "2026-10-13T20:38:39.527519",
   "stocks": [
     {
-      "symbol": "TLVROTLVAACNOR1",
-      "name": "BANCA TRANSILVANIA S.A.",
-      "price": "35.4400",
-      "variation": "13.10.2026 17:56"
+      "symbol": "TGNROTGNTACNOR8",
+      "name": "S.N.T.G.N. TRANSGAZ S.A.",
+      "price": "86.0000",
+      "variation": "13.10.2026 17:59"
+    },
+    {
+      "symbol": "BRDROBRDBACNOR2",
+      "name": "BRD - GROUPE SOCIETE GENERALE S.A.",
+      "price": "30.8000",
+      "variation": "13.10.2026 17:59"
+    },
+    {
+      "symbol": "SNGROSNGNACNOR3",
+      "name": "S.N.G.N. ROMGAZ S.A.",
+      "price": "18.0600",
+      "variation": "13.10.2026 17:58"
     },
     {
       "symbol": "RRCROPTRMACNOR5",
       "name": "ROMPETROL RAFINARE S.A.",
       "price": "0.3580",
-      "variation": "13.10.2026 17:56"
+      "variation": "13.10.2026 17:58"
+    },
+    {
+      "symbol": "TLVROTLVAACNOR1",
+      "name": "BANCA TRANSILVANIA S.A.",
+      "price": "35.4400",
+      "variation": "13.10.2026 17:58"
+    },
+    {
+      "symbol": "TTSROYCRRK66RD8",
+      "name": "TTS (TRANSPORT TRADE SERVICES) S.A.",
+      "price": "7.2600",
+      "variation": "13.10.2026 17:57"
     },
     {
       "symbol": "IARVROIARVACNOR1",
@@ -32,12 +56,6 @@
       "variation": "13.10.2026 17:56"
     },
     {
-      "symbol": "BRDROBRDBACNOR2",
-      "name": "BRD - GROUPE SOCIETE GENERALE S.A.",
-      "price": "30.8000",
-      "variation": "13.10.2026 17:55"
-    },
-    {
       "symbol": "FPROFPTAACNOR5",
       "name": "FONDUL PROPRIETATEA",
       "price": "0.6150",
@@ -53,12 +71,6 @@
       "symbol": "TELROTSELACNOR9",
       "name": "C.N.T.E.E. TRANSELECTRICA",
       "price": "99.5000",
-      "variation": "13.10.2026 17:52"
-    },
-    {
-      "symbol": "SNGROSNGNACNOR3",
-      "name": "S.N.G.N. ROMGAZ S.A.",
-      "price": "18.0600",
       "variation": "13.10.2026 17:52"
     },
     {
@@ -84,12 +96,6 @@
       "name": "ROMPETROL WELL SERVICES S.A.",
       "price": "0.6640",
       "variation": "13.10.2026 17:51"
-    },
-    {
-      "symbol": "TGNROTGNTACNOR8",
-      "name": "S.N.T.G.N. TRANSGAZ S.A.",
-      "price": "86.0000",
-      "variation": "13.10.2026 17:50"
     },
     {
       "symbol": "OILROOILTACNOR9",
@@ -204,12 +210,6 @@
       "name": "SIMTEL TEAM",
       "price": "37.0000",
       "variation": "13.10.2026 17:37"
-    },
-    {
-      "symbol": "TTSROYCRRK66RD8",
-      "name": "TTS (TRANSPORT TRADE SERVICES) S.A.",
-      "price": "7.2600",
-      "variation": "13.10.2026 17:33"
     },
     {
       "symbol": "BVBROBVBAACNOR0",
