@@ -1,40 +1,142 @@
 {
-  "timestamp": "2026-10-23T14:59:33.046973",
+  "timestamp": "2026-10-23T18:53:01.341735",
   "stocks": [
     {
-      "symbol": "SNPROSNPPACNOR9",
-      "name": "OMV PETROM S.A.",
-      "price": "1.3300",
-      "variation": "23.10.2026 17:44"
+      "symbol": "TLVROTLVAACNOR1",
+      "name": "BANCA TRANSILVANIA S.A.",
+      "price": "36.1800",
+      "variation": "23.10.2026 17:59"
     },
     {
-      "symbol": "BRDROBRDBACNOR2",
-      "name": "BRD - GROUPE SOCIETE GENERALE S.A.",
-      "price": "32.4000",
-      "variation": "23.10.2026 17:44"
+      "symbol": "BVBROBVBAACNOR0",
+      "name": "BURSA DE VALORI BUCURESTI SA",
+      "price": "84.2000",
+      "variation": "23.10.2026 17:59"
     },
     {
       "symbol": "RRCROPTRMACNOR5",
       "name": "ROMPETROL RAFINARE S.A.",
-      "price": "0.8750",
-      "variation": "23.10.2026 17:44"
-    },
-    {
-      "symbol": "H2ORO4Q0Z5RO1B6",
-      "name": "SOCIETATEA DE PRODUCERE A ENERGIEI ELECTRICE IN HIDROCENTRALE  HIDROELECTRICA S.A.",
-      "price": "181.0000",
-      "variation": "23.10.2026 17:44"
+      "price": "0.8800",
+      "variation": "23.10.2026 17:59"
     },
     {
       "symbol": "FPROFPTAACNOR5",
       "name": "FONDUL PROPRIETATEA",
       "price": "0.5630",
-      "variation": "23.10.2026 17:44"
+      "variation": "23.10.2026 17:59"
+    },
+    {
+      "symbol": "DIGINL0012294474",
+      "name": "Digi Communications N.V.",
+      "price": "60.6000",
+      "variation": "23.10.2026 17:59"
+    },
+    {
+      "symbol": "ARSROAEROACNOR5",
+      "name": "AEROSTAR S.A.",
+      "price": "18.5000",
+      "variation": "23.10.2026 17:58"
+    },
+    {
+      "symbol": "CFHROM2TZIHW2M4",
+      "name": "CRIS-TIM FAMILY HOLDING S.A.",
+      "price": "49.5500",
+      "variation": "23.10.2026 17:58"
+    },
+    {
+      "symbol": "BRDROBRDBACNOR2",
+      "name": "BRD - GROUPE SOCIETE GENERALE S.A.",
+      "price": "32.5000",
+      "variation": "23.10.2026 17:58"
+    },
+    {
+      "symbol": "AROBSROWMR49B0RG5",
+      "name": "AROBS TRANSILVANIA SOFTWARE",
+      "price": "0.7580",
+      "variation": "23.10.2026 17:57"
+    },
+    {
+      "symbol": "TGNROTGNTACNOR8",
+      "name": "S.N.T.G.N. TRANSGAZ S.A.",
+      "price": "87.5000",
+      "variation": "23.10.2026 17:57"
+    },
+    {
+      "symbol": "H2ORO4Q0Z5RO1B6",
+      "name": "SOCIETATEA DE PRODUCERE A ENERGIEI ELECTRICE IN HIDROCENTRALE  HIDROELECTRICA S.A.",
+      "price": "181.0000",
+      "variation": "23.10.2026 17:56"
+    },
+    {
+      "symbol": "SNPROSNPPACNOR9",
+      "name": "OMV PETROM S.A.",
+      "price": "1.3300",
+      "variation": "23.10.2026 17:56"
     },
     {
       "symbol": "SNGROSNGNACNOR3",
       "name": "S.N.G.N. ROMGAZ S.A.",
-      "price": "18.7200",
+      "price": "18.7400",
+      "variation": "23.10.2026 17:56"
+    },
+    {
+      "symbol": "RPHROIAFRACNOR4",
+      "name": "ROPHARMA SA",
+      "price": "0.2800",
+      "variation": "23.10.2026 17:53"
+    },
+    {
+      "symbol": "MROMEDLACNOR6",
+      "name": "Med Life S.A.",
+      "price": "10.9400",
+      "variation": "23.10.2026 17:53"
+    },
+    {
+      "symbol": "ONEROJ8YZPDHWW8",
+      "name": "ONE UNITED PROPERTIES",
+      "price": "34.0500",
+      "variation": "23.10.2026 17:51"
+    },
+    {
+      "symbol": "PBKROBACRACNOR6",
+      "name": "PATRIA BANK S.A.",
+      "price": "0.1470",
+      "variation": "23.10.2026 17:50"
+    },
+    {
+      "symbol": "TRIPROE1N5GQPH38",
+      "name": "CHRISTIAN '76 TOUR S.A.",
+      "price": "1.3540",
+      "variation": "23.10.2026 17:50"
+    },
+    {
+      "symbol": "TTSROYCRRK66RD8",
+      "name": "TTS (TRANSPORT TRADE SERVICES) S.A.",
+      "price": "7.2800",
+      "variation": "23.10.2026 17:50"
+    },
+    {
+      "symbol": "EBSAT0000652011",
+      "name": "Erste Group Bank AG",
+      "price": "554.0000",
+      "variation": "23.10.2026 17:50"
+    },
+    {
+      "symbol": "LONGROSIFDACNOR6",
+      "name": "LONGSHIELD INVESTMENT GROUP S.A.",
+      "price": "2.5600",
+      "variation": "23.10.2026 17:50"
+    },
+    {
+      "symbol": "ATBROATBIACNOR9",
+      "name": "ANTIBIOTICE S.A.",
+      "price": "1.9660",
+      "variation": "23.10.2026 17:50"
+    },
+    {
+      "symbol": "EFOROEFRIACNOR6",
+      "name": "TURISM, HOTELURI, RESTAURANTE MAREA NEAGRA S.A.",
+      "price": "0.9450",
       "variation": "23.10.2026 17:44"
     },
     {
@@ -44,52 +146,10 @@
       "variation": "23.10.2026 17:44"
     },
     {
-      "symbol": "MROMEDLACNOR6",
-      "name": "Med Life S.A.",
-      "price": "11.0400",
-      "variation": "23.10.2026 17:44"
-    },
-    {
-      "symbol": "TLVROTLVAACNOR1",
-      "name": "BANCA TRANSILVANIA S.A.",
-      "price": "36.1000",
-      "variation": "23.10.2026 17:43"
-    },
-    {
       "symbol": "TBMROTBMBACNOR9",
       "name": "TURBOMECANICA S.A.",
       "price": "0.3040",
       "variation": "23.10.2026 17:43"
-    },
-    {
-      "symbol": "RPHROIAFRACNOR4",
-      "name": "ROPHARMA SA",
-      "price": "0.2800",
-      "variation": "23.10.2026 17:43"
-    },
-    {
-      "symbol": "BVBROBVBAACNOR0",
-      "name": "BURSA DE VALORI BUCURESTI SA",
-      "price": "84.2000",
-      "variation": "23.10.2026 17:43"
-    },
-    {
-      "symbol": "AROBSROWMR49B0RG5",
-      "name": "AROBS TRANSILVANIA SOFTWARE",
-      "price": "0.7600",
-      "variation": "23.10.2026 17:43"
-    },
-    {
-      "symbol": "EFOROEFRIACNOR6",
-      "name": "TURISM, HOTELURI, RESTAURANTE MAREA NEAGRA S.A.",
-      "price": "0.9000",
-      "variation": "23.10.2026 17:42"
-    },
-    {
-      "symbol": "DIGINL0012294474",
-      "name": "Digi Communications N.V.",
-      "price": "60.6000",
-      "variation": "23.10.2026 17:42"
     },
     {
       "symbol": "SNNROSNNEACNOR8",
@@ -102,24 +162,6 @@
       "name": "SOCIETATEA ENERGETICA ELECTRICA S.A.",
       "price": "50.5000",
       "variation": "23.10.2026 17:41"
-    },
-    {
-      "symbol": "TGNROTGNTACNOR8",
-      "name": "S.N.T.G.N. TRANSGAZ S.A.",
-      "price": "87.5000",
-      "variation": "23.10.2026 17:41"
-    },
-    {
-      "symbol": "LONGROSIFDACNOR6",
-      "name": "LONGSHIELD INVESTMENT GROUP S.A.",
-      "price": "2.5600",
-      "variation": "23.10.2026 17:40"
-    },
-    {
-      "symbol": "EBSAT0000652011",
-      "name": "Erste Group Bank AG",
-      "price": "551.0000",
-      "variation": "23.10.2026 17:40"
     },
     {
       "symbol": "IARVROIARVACNOR1",
@@ -161,18 +203,6 @@
       "symbol": "BNETROBNETACNOR1",
       "name": "BITTNET SYSTEMS SA",
       "price": "0.1185",
-      "variation": "23.10.2026 17:34"
-    },
-    {
-      "symbol": "CFHROM2TZIHW2M4",
-      "name": "CRIS-TIM FAMILY HOLDING S.A.",
-      "price": "49.5500",
-      "variation": "23.10.2026 17:34"
-    },
-    {
-      "symbol": "ATBROATBIACNOR9",
-      "name": "ANTIBIOTICE S.A.",
-      "price": "2.0000",
       "variation": "23.10.2026 17:34"
     },
     {
@@ -230,34 +260,10 @@
       "variation": "23.10.2026 17:23"
     },
     {
-      "symbol": "TTSROYCRRK66RD8",
-      "name": "TTS (TRANSPORT TRADE SERVICES) S.A.",
-      "price": "7.2600",
-      "variation": "23.10.2026 17:19"
-    },
-    {
       "symbol": "CMPROCMPSACNOR9",
       "name": "COMPA S. A.",
       "price": "0.6700",
       "variation": "23.10.2026 17:18"
-    },
-    {
-      "symbol": "TRIPROE1N5GQPH38",
-      "name": "CHRISTIAN '76 TOUR S.A.",
-      "price": "1.3300",
-      "variation": "23.10.2026 17:18"
-    },
-    {
-      "symbol": "ONEROJ8YZPDHWW8",
-      "name": "ONE UNITED PROPERTIES",
-      "price": "34.4000",
-      "variation": "23.10.2026 17:10"
-    },
-    {
-      "symbol": "ARSROAEROACNOR5",
-      "name": "AEROSTAR S.A.",
-      "price": "18.5000",
-      "variation": "23.10.2026 17:08"
     },
     {
       "symbol": "ENPROENPCACNOR7",
@@ -324,12 +330,6 @@
       "name": "VRANCART SA",
       "price": "0.0930",
       "variation": "23.10.2026 16:24"
-    },
-    {
-      "symbol": "PBKROBACRACNOR6",
-      "name": "PATRIA BANK S.A.",
-      "price": "0.1470",
-      "variation": "23.10.2026 16:15"
     },
     {
       "symbol": "BRKROBRKOACNOR0",
